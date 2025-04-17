@@ -1,0 +1,148 @@
+.section{
+    padding: 70px 0px;
+}
+
+.section h2.section-head{
+    color: #000;
+    text-align: center;
+    margin-bottom: 70px;
+
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.section h2.section-head::after{
+    background-color: #e18c44;
+    content: "";
+    display: block;
+    width: 200px;
+    height: 3px;
+    margin: 15px auto;
+}
+
+#header{
+    background-color: #e18c44;
+    /* position: fixed; */
+}
+
+#logo {
+    font-family: "Pacifico", serif;
+    padding: 15px 0px;
+    color: #ffff;
+}
+
+#menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li {
+    display: inline-block;
+}
+
+#menu li a {
+    color: #ffff;
+    padding: 30px 20px;
+    display: block;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 18px;
+}
+
+#menu li a:hover {
+    color: black;
+}
+
+#banner {
+    background: url('../../images/sunscreen.webp') no-repeat 0 0;
+    background-size: cover;
+    height: 650px;
+}
+
+.banner-title {
+    position: relative;
+    top: 170px;
+    left: 50px;
+    color: #ffff;
+}
+
+.banner-title h1 {
+    font-size: 50px;
+    
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.banner-title p {
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+#service{
+    background-color: #FFF2E8;
+}
+
+.service-box{
+    text-align: center;
+}
+
+.service-box i{
+    color: #e18c44;
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+.service-box h3{
+    font-size: 25px;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.products{
+    display: flex;
+    justify-content: center;
+}
+
+.products h4{
+    font-size: 20px;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.products a{
+    background-color: #659B91;
+    color: #ffff;
+}
+
+#footer-sidebar{
+    background-color: #659B91;
+}
+
+.footer-widget{
+    color: #ffff;
+}
+
+.footer-widget h1{
+    font-family: "Pacifico", serif;
+    color: #ffff;
+    padding: 50px 0px;
+}
+
+.footer-widget h4{
+    padding: 20px 30px;
+    font-size: 20px;
+}
+
+.footer-widget a{
+    color:#ffff;
+    text-decoration: none;
+}
+
+.footer-widget ul li{
+   list-style: none; 
+   padding-bottom: 10px;
+}
